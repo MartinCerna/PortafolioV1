@@ -1,0 +1,135 @@
+* {
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+/* NAV VAR */
+span.material-icons-outlined {
+   color: #c2cbe2;
+   height: 30%;
+   margin: 2vh;
+   font-size: 4vh;
+}
+
+input,
+span.material-icons-round {
+   color: #c2cbe2;
+   display: none;
+}
+
+.nav,
+.nav-list {
+   display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+   /* height: 8vh; */
+}
+
+.nav {
+   background-color: #032066;
+   justify-content: space-between;
+}
+
+.nav-list {
+   list-style: none;
+   width: 45%;
+   justify-content: space-around;
+   padding-right: 1vh;
+
+}
+
+.nav-list li a {
+   color: #c2cbe2;
+   padding: 1.8vh;
+   border-radius: 14%;
+   text-decoration: none;
+   font-size: large;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   align-items: center;
+   display: flex;
+}
+
+.nav-list li a:hover {
+   background-color: #556f90;
+}
+
+@media (max-width:768px) {
+   span.material-icons-round {
+      color: #c2cbe2;
+      display: flex;
+      padding: 0 1vh 0 0;
+      font-size: 4vh;
+   }
+   label{      
+      display: flex;      
+   }
+   #burger:checked{
+   
+      }
+   /* .nav {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100%;
+      justify-content:flex-start;
+      overflow: hidden;
+      align-content: space-between;
+   } */
+
+   .logo {
+      display: flex;
+   }
+
+   ul.nav-list {
+      /* display: flex; */
+      display:none;
+      flex-direction: column;
+      list-style: none;
+      padding-bottom: 1vh;
+      width: 100%;
+      height: 25%;
+   }
+
+   ul.nav-list li {
+      width: 100%;
+   }
+
+   ul.nav-list li a {
+      border-radius: 0;
+      justify-content: center;
+   }
+}
+
+/* WELCOME SECTION */
+.welcome-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100vh;
+   background-image: linear-gradient(0deg, #5186ad 0%, #c2cbe2 100%);
+}
+
+h1 {
+   font-family: "Madimi One", sans-serif;
+   font-size: 16vh;
+   color: #032066;
+   font-weight: lighter;
+}
+
+h2 strong {
+   font-family: "Madimi One";
+   font-size: 4vh;
+   color: #8a2668;
+   /* color: #f4b10b; */
+}
+
+/* PROJECTS SECTION */
+.projects-section {
+   text-align: center;
+   padding: 10rem 2rem;
+   background: #c2cbe2;
+   display: block;
+}
