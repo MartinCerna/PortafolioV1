@@ -70,6 +70,7 @@ span.material-icons-round {
    }
 
    #burger:checked{
+      ul.nav-list
       ul.nav-list {
          /* display: flex; */
          display:flex;
@@ -78,6 +79,9 @@ span.material-icons-round {
          padding-bottom: 1vh;
          width: 100%;
          height: 25%;
+      }
+      ul.nav-list li {
+         width: 100%;
       }
       }
    /* .nav {
