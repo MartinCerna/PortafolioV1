@@ -47,7 +47,7 @@ span.material-icons-round {
 
 }
 
-nav-list li a {
+.nav-list li a {
    color: #c2cbe2;
    padding: 1.8vh;
    border-radius: 14%;
@@ -57,6 +57,7 @@ nav-list li a {
    align-items: center;
    display: flex;
 }
+
 
 .nav-list li a:hover {
    background-color: #556f90;
