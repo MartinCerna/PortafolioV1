@@ -30,13 +30,12 @@ span.material-icons-round {
    display: flex;
    flex-flow: row wrap;
    align-items: center;
-   /* height: 8vh; */
 }
 
 .nav {
    background-color: #032066;
    justify-content: space-between;
-   overflow:hidden;
+   overflow:hidden;;
 }
 
 .nav-list {
@@ -64,6 +63,14 @@ span.material-icons-round {
 }
 
 @media (max-width:768px) {
+   .nav-list li{
+      width: 100%;
+   }
+   .nav-list li a{
+      justify-content: center;
+      border-radius: 0px;
+      width: 100%;
+   }
    .nav-list {
       display: none;
    }
@@ -74,15 +81,12 @@ span.material-icons-round {
       list-style: none;
       padding-bottom: 1vh;
       width: 100%;
-      overflow:hidden;
-      height: 25%;
-   }
-
-   #menu:checked~.nav {
-      justify-content: flex-start;
+      height: 91vh;
       overflow: hidden;
-      max-height: 100px;
-
+      align-content: flex-start;
+      align-items: flex-start;
+      justify-content: flex-start;
+      justify-items: flex-start;
    }
 
    span.material-icons-round {
