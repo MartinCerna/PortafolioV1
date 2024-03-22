@@ -5,6 +5,11 @@
 }
 
 /* NAV VAR */
+#navbar{
+   position: fixed;
+   top:0;
+   width: 100%;
+}
 span.material-icons-outlined {
    color: #c2cbe2;
    height: 30%;
@@ -71,7 +76,15 @@ span.material-icons-round {
    .nav-list {
       display: none;
    }
-
+   #menu:checked~#welcome-section{
+      display: none;
+   }
+   #menu:checked~#projects{
+      display: none;
+   }
+   #menu:checked~#contact{
+      display: none;
+   }
    #menu:checked~.nav-list {
       display: flex;
       flex-direction: column;
